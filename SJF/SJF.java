@@ -71,9 +71,9 @@ public class SJF {
         Proces[] processes = new Proces[n];
 
         for (int i = 0 ; i<n ; i++){
-            System.out.println("Enter processes "+ (i+1) +" arrival and burst time");
-            int arr = input.nextInt();
+            System.out.println("Enter processes "+ (i+1) +" burst and arrival time");
             int burst = input.nextInt();
+            int arr = input.nextInt();
             //add this process to the array
             processes[i] = new Proces("P"+(i+1) , arr, burst);
         }
