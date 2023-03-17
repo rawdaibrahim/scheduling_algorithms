@@ -1,5 +1,5 @@
 # CPU scheduling algorithms RR and SJF
-This project is an implementation for Round-Robin scheduling (RR) and Shortest-Job-First (SJF) and output for the next example:
+This project contains an implementation for Round-Robin scheduling (RR) and Shortest-Job-First (SJF) and output for the next example:
 ![My Image](example.png)
 ## Round-Robin Scheduling
 RR is a preemptive scheduling which based on FCFS approach with quantum time; each process or job present in the ready queue is assigned the CPU for that time quantum, if the execution of the process is completed during that time then the process will end else the process will go back to the waiting table and wait for its next turn to complete the execution.
